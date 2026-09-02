@@ -10,7 +10,7 @@ readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
 dependencies = [
-    "lnpl @ git+https://github.com/choiyounggi/linkly@fa7e86b71c5beba902a8430895405c99a9da24e0",
+    "lnpl @ git+https://github.com/choiyounggi/linkly@ecfa40869c0b7413129438639573ec9f4ab41133",
     "redis>=8,<9",
 ]
 
