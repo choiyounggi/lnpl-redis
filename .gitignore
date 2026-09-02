@@ -1,0 +1,8 @@
+.orchestration/
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.claude/tmp/
