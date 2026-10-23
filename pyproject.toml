@@ -8,14 +8,14 @@ version = "0.1.0"
 description = "Redis CacheDriver for lnpl (linkly#143)"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 dependencies = [
-    "lnpl @ git+https://github.com/choiyounggi/linkly@ecfa40869c0b7413129438639573ec9f4ab41133",
+    "lnpl>=0.9,<0.10",
     "redis>=8,<9",
 ]
 
 [project.optional-dependencies]
-test = ["testcontainers[redis]>=4.15,<5"]
+test = ["testcontainers[redis]>=4.15,<5", "packaging>=24"]
 
 [project.entry-points."lnpl.caches"]
 redis = "lnpl_redis:make_cache"
